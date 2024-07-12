@@ -1,32 +1,13 @@
-# REDUX AND REDUX TOOLKIT
+# FOLDER STRUCTURE
 
-A container where you can store your whole application data.
+- components
+- containers
+- services
 
-## What is Redux?
-
-1. A pattern
-2. A library
-3. Independent of Frameworks
-4. State Management with JS
-
-## When to use Redux?
-
-1. Big Applications
-2. High frequency of state changes
-
-### INSTALLATION:-
-
-#### Redux:
-```bash
-npm install redux
-```
-
-#### Redux with react:
-```bash
-npm install react-redux
-```
-
-![Redux Architecture](./images/reducArchitecture.png)
+1) actions - action.js
+2) reducers - reducer.js, index.js
+3) constan.js file
 
 
-
+- Action send the complete data to **redux store**
+- Action se reducer mai data jata hai fhir reducer se store mai jata hai 
